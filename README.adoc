@@ -4,7 +4,7 @@
 
 (Previous) quizes and events can be found link:https://adventofcode.com/[here].
 
-* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day1[Day 1]
-* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day2[Day 2]
-* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day3[Day 3]
-* Day 4
+* link:https://adventofcode.com/2020/day/1[Day 1 Quiz] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day1[Day 1 code]
+* link:https://adventofcode.com/2020/day/2[Day 2 Quiz] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day2[Day 2 code]
+* link:https://adventofcode.com/2020/day/3[Day 3 Quiz] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day3[Day 3 code]
+* Day 4 Quiz | Day 4 code
