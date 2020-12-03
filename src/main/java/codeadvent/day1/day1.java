@@ -16,11 +16,9 @@ public class day1 {
                 .filter(x -> x <= 2020)
                 .collect(Collectors.toList());
 
-        input.forEach(System.out::println);
-
         int size = input.size();
-        System.out.println("size = " + size);
 
+        // Part 1 and 2 together here.
         for (int i = 0; i < size - 2; i++) {
             for (int j = i + 1; j < size - 1; j++) {
                 for (int k = j + 1; k < size; k++) {
