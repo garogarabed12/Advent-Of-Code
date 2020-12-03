@@ -12,7 +12,7 @@ public class TreesCollector4 extends TreesCollector {
 
     public void reduction(String line) {
         if (downIndex > 0) {
-            rightIndex = (rightIndex + 7) % 31;
+            rightIndex = (rightIndex + 7) % line.length();
             if (isTree(line.charAt(rightIndex))) {
                 numberOfEncounteredTrees++;
             }
