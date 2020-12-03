@@ -1,4 +1,4 @@
-package codeadvent.day2;
+package aoc2020.day2;
 
 import java.io.IOException;
 import java.nio.file.Files;

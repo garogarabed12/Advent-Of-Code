@@ -1,4 +1,4 @@
-package codeadvent.day3;
+package aoc2020.day3;
 
 public class TreesCollector {
     protected int numberOfEncounteredTrees;

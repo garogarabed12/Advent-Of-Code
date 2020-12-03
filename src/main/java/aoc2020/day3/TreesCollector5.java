@@ -1,4 +1,4 @@
-package codeadvent.day3;
+package aoc2020.day3;
 
 /**
  * Slope: Right 1, down 2

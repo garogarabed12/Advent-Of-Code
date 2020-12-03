@@ -1,4 +1,4 @@
-package codeadvent.day2;
+package aoc2020.day2;
 
 import java.util.ArrayList;
 import java.util.List;

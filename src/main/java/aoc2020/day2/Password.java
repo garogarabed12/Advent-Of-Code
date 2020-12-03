@@ -1,4 +1,4 @@
-package codeadvent.day2;
+package aoc2020.day2;
 
 public class Password {
     private final int min;
