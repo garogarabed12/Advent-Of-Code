@@ -16,14 +16,10 @@ public class day2 {
                         PasswordCollector::join
                 ).getPasswords();
 
-        int size = passwords.size();
-        System.out.println("size = " + size);
-
-        long count1 = passwords.stream().filter(Password::isValid)
-                .count();
-        System.out.println("First validity count = " + count1);
+        long count1 = passwords.stream().filter(Password::isValid).count();
+        System.out.println("First validation result: " + count1);
 
         long count2 = passwords.stream().filter(Password::isValidV2).count();
-        System.out.println("Second validity count = " + count2);
+        System.out.println("Second validation result: " + count2);
     }
 }

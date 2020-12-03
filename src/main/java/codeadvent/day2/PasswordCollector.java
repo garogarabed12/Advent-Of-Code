@@ -14,15 +14,16 @@ public class PasswordCollector {
     public void reduction(String line) {
         String[] tokens = line.split(" ");
         String nums = tokens[0];
+
         String letterString = tokens[1];
         String pass = tokens[2];
+
         String[] numTokens = nums.split("-");
         int min = Integer.parseInt(numTokens[0]);
         int max = Integer.parseInt(numTokens[1]);
         char letter = letterString.charAt(0);
-        passwords.add( new Password(
-                min, max, letter, pass
-        ));
+
+        passwords.add(new Password(min, max, letter, pass));
     }
 
     public void join(PasswordCollector that) {
