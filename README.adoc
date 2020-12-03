@@ -1,5 +1,10 @@
 = Advent Of Code
 
-=== My solutions of the 2020 Advent of code.
+=== My solutions of the 2020 Advent Of Code.
 
-All quizes and events from previous years can be found link:https://adventofcode.com/[here].
+(Previous) quizes and events can be found link:https://adventofcode.com/[here].
+
+* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day1[Day 1]
+* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day2[Day 2]
+* link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day3[Day 3]
+* Day 4
