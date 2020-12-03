@@ -2,12 +2,12 @@ package codeadvent.day3;
 
 public class TreesCollector {
     protected int numberOfEncounteredTrees;
-    protected int downCounter;
-    protected int rightCounter;
+    protected int downIndex;
+    protected int rightIndex;
 
     public TreesCollector() {
-        downCounter = 0;
-        rightCounter = 0;
+        downIndex = 0;
+        rightIndex = 0;
         numberOfEncounteredTrees = 0;
     }
 

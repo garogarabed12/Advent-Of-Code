@@ -11,12 +11,12 @@ public class TreesCollector2 extends TreesCollector {
     }
 
     public void reduction(String line) {
-        if (downCounter > 0) {
-            rightCounter = (rightCounter + 1) % 31;
-            if (isTree(line.charAt(rightCounter))) {
+        if (downIndex > 0) {
+            rightIndex = (rightIndex + 1) % 31;
+            if (isTree(line.charAt(rightIndex))) {
                 numberOfEncounteredTrees++;
             }
         }
-        downCounter++;
+        downIndex++;
     }
 }
