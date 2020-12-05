@@ -6,7 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class day2 {
+public class Day2 {
     public static void main(String[] args) throws IOException {
         Path path = Paths.get("./src/main/java/codeadvent/day2/dayTwoInput.txt");
 

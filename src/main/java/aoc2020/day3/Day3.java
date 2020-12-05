@@ -7,9 +7,9 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class day3 {
+public class Day3 {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("./src/main/java/codeadvent/day3/dayThreeInput.txt");
+        Path path = Paths.get("./src/main/java/aoc2020/day3/dayThreeInput.txt");
 
         List<String> lines = Files.lines(path).collect(Collectors.toList());
 
