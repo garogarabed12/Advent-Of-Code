@@ -5,9 +5,9 @@
 (Previous) puzzles and events can be found link:https://adventofcode.com/[here]. Your constructive feedback and improvement suggestions are appreciated so feel free
 to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues[issue].
 
-* link:https://adventofcode.com/2020/day/1[Day 1 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day1[Day 1 code]
-* link:https://adventofcode.com/2020/day/2[Day 2 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day2[Day 2 code]
-* link:https://adventofcode.com/2020/day/3[Day 3 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day3[Day 3 code]
+* link:https://adventofcode.com/2020/day/1[Day 1 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc/day1[Day 1 code]
+* link:https://adventofcode.com/2020/day/2[Day 2 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc/day2[Day 2 code]
+* link:https://adventofcode.com/2020/day/3[Day 3 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc/day3[Day 3 code]
 * link:https://adventofcode.com/2020/day/4[Day 4 Puzzle] | Day 4 code
-* link:https://adventofcode.com/2020/day/5[Day 5 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/codeadvent/day5[Day 5 code]
+* link:https://adventofcode.com/2020/day/5[Day 5 Puzzle] | link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc/day5[Day 5 code]
 * Day 6 puzzle | Day 6 code
