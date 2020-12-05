@@ -9,12 +9,10 @@ import java.util.stream.Collectors;
 
 public class Day3 {
     public static void main(String[] args) throws IOException {
+        System.out.println("Part  1:");
+
         Path path = Paths.get("./src/main/java/aoc2020/day3/dayThreeInput.txt");
-
         List<String> lines = Files.lines(path).collect(Collectors.toList());
-
-        int numberOfLines = lines.size();
-        System.out.println("numberOfLines = " + numberOfLines);
 
         int numberOfEncounteredTrees = lines.stream()
                 .collect(TreesCollector1::new,
@@ -24,24 +22,20 @@ public class Day3 {
         System.out.println("numberOfEncounteredTrees = " + numberOfEncounteredTrees);
 
         System.out.println("========================================");
+        System.out.println("Part  2:");
 
         int result1 = collectFromCollector1(lines);
-        System.out.println("result1 = " + result1);
 
         int result2 = collectFromCollector2(lines);
-        System.out.println("result2 = " + result2);
 
         int result3 = collectFromCollector3(lines);
-        System.out.println("result3 = " + result3);
 
         int result4 = collectFromCollector4(lines);
-        System.out.println("result4 = " + result4);
 
         int result5 = collectFromCollector5(lines);
-        System.out.println("result5 = " + result5);
 
-        long product = (long) result1 * result2 * result3 * result4 * result5;
-        System.out.println("product = " + product);
+        long result = (long) result1 * result2 * result3 * result4 * result5;
+        System.out.println("Result = " + result);
     }
 
     public static int collectFromCollector1(List<String> lines) {

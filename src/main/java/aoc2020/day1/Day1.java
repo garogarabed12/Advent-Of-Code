@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class Day1 {
     public static void main(String[] args) throws IOException {
-        Path path = Paths.get("./src/main/java/codeadvent/day1/dayOneInput.txt");
+        Path path = Paths.get("./src/main/java/aoc2020/day1/dayOneInput.txt");
 
         List<Integer> input = Files.lines(path)
                 .map(Integer::parseInt)
@@ -18,7 +18,7 @@ public class Day1 {
 
         int size = input.size();
 
-        // Part 1 and 2 together here.
+        System.out.println("Part 2:");
         for (int i = 0; i < size - 2; i++) {
             for (int j = i + 1; j < size - 1; j++) {
                 for (int k = j + 1; k < size; k++) {
