@@ -19,7 +19,13 @@ public class Day5 {
 
         System.out.println("Highest seat ID on a boarding pass is: " + seatIds.get(size-1));
 
-        System.out.println("==================================================");
+        System.out.println("==========================================");
         System.out.println("Part 2:");
+
+        for (int i= 1; i<size-1; i++) {
+            if(seatIds.get(i+1) != seatIds.get(i) + 1) {
+                System.out.println("the ID of my seat is: " + (seatIds.get(i) + 1));
+            }
+        }
     }
 }
