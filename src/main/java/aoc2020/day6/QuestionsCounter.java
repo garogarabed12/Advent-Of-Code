@@ -6,12 +6,12 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class QuestionsCalculator {
+public class QuestionsCounter {
 
     private final List<String> data;
     private long yesAnswersCounter = 0;
 
-    public QuestionsCalculator() {
+    public QuestionsCounter() {
         data = new ArrayList<>();
     }
 

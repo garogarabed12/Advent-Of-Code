@@ -13,18 +13,18 @@ public class Day6 {
         Path path = Paths.get("./src/main/java/aoc2020/day6/daySixInput.txt");
         List<String> lines = Files.lines(path).collect(Collectors.toList());
 
-        QuestionsCalculator questionsCalculator = new QuestionsCalculator();
-        questionsCalculator.calculateV1(lines);
+        QuestionsCounter questionsCounter = new QuestionsCounter();
+        questionsCounter.calculateV1(lines);
 
         System.out.print("The sum of the number of questions to which anyone answered \"yes\" is: ");
-        System.out.println(questionsCalculator.getYesAnswersCounter());
+        System.out.println(questionsCounter.getYesAnswersCounter());
 
         System.out.println("================================");
         System.out.println("Part 2");
 
-        questionsCalculator.calculateV2(lines);
+        questionsCounter.calculateV2(lines);
 
         System.out.print("The sum of the number of questions to which everyone answered \"yes\" is: ");
-        System.out.println(questionsCalculator.getYesAnswersCounter());
+        System.out.println(questionsCounter.getYesAnswersCounter());
     }
 }
