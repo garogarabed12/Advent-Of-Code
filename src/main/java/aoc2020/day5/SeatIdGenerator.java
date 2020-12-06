@@ -1,5 +1,7 @@
 package aoc2020.day5;
 
+import java.util.List;
+
 public class SeatIdGenerator {
 
     public int generateSeatId(String ticketCode) {
@@ -35,5 +37,13 @@ public class SeatIdGenerator {
         /*these two are the same.
         back * 8 + right;*/
         return front * 8 + left;
+    }
+
+    public void calculateMySeatId(List<Integer> seatIds, int size) {
+        for (int i = 0; i < size-1; i++) {
+            if (seatIds.get(i + 1) != seatIds.get(i) + 1) {
+                System.out.println("The ID of my seat is: " + (seatIds.get(i) + 1));
+            }
+        }
     }
 }
