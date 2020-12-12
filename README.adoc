@@ -31,7 +31,7 @@ link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc
 Day 7 code
 
 | link:https://adventofcode.com/2020/day/8[Day 8 puzzle] +
-Day 8 code
+link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc2020/day8[Day 8 code]
 
 | link:https://adventofcode.com/2020/day/9[Day 9 puzzle] +
 Day 9 code
