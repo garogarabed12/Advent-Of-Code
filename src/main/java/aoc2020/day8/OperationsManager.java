@@ -30,14 +30,6 @@ public class OperationsManager {
         }
     }
 
-    /*private int calculateNextInstructionsIndex() {
-        Instruction currentInstruction = instructionsMap.get(currentInstructionsIndex);
-        if (currentInstruction.getOperation().equals("jmp")) {
-            return currentInstructionsIndex += currentInstruction.getArgument();
-        }
-        return currentInstructionsIndex++;
-    }*/
-
     private void executeInstruction(Instruction instruction) {
 
         switch (instruction.getOperation()) {
