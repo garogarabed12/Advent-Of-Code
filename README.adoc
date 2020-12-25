@@ -36,7 +36,7 @@ Day 11 code
 | link:https://adventofcode.com/2020/day/12[Day 12 puzzle] +
 link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/c/aoc2020/day12[Day 12 code]
 | link:https://adventofcode.com/2020/day/13[Day 13 puzzle] +
-link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc2020/day12[Day 13 code]
+link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/java/aoc2020/day13[Day 13 code]
 | link:https://adventofcode.com/2020/day/14[Day 14 puzzle] +
 Day 14 code
 | link:https://adventofcode.com/2020/day/15[Day 15 puzzle] +
