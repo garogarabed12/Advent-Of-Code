@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-long calculateLoopsize(long publicKey);
+int calculateLoopsize(long publicKey);
 
-long makeHandshake(long loopSize, long subjectNumber);
+long makeHandshake(int loopSize, long subjectNumber);
 
 int main() {
     FILE *input = fopen("DayTwentyFiveInput.txt", "r");
@@ -17,8 +17,8 @@ int main() {
     fscanf(input, "%ld", &doorPublicKey);
     fscanf(input, "%ld", &cardPublicKey);
 
-    long loopSizeOfDoor = calculateLoopsize(doorPublicKey);
-    long loopSizeOfCard = calculateLoopsize(cardPublicKey);
+    int loopSizeOfDoor = calculateLoopsize(doorPublicKey);
+    int loopSizeOfCard = calculateLoopsize(cardPublicKey);
 
     long doorEncryptionKey = makeHandshake(loopSizeOfCard, doorPublicKey);
     long cardEncryptionKey = makeHandshake(loopSizeOfDoor, cardPublicKey);
@@ -30,10 +30,10 @@ int main() {
     return 0;
 }
 
-long calculateLoopsize(long publicKey) {
+int calculateLoopsize(long publicKey) {
     long subjectNumber = 7;
     long result = 1;
-    long loopSize = 0;
+    int loopSize = 0;
     while(result != publicKey) {
         result *= subjectNumber;
         result = result % 20201227;
@@ -42,7 +42,7 @@ long calculateLoopsize(long publicKey) {
     return loopSize;
 }
 
-long makeHandshake(long loopSize, long subjectNumber) {
+long makeHandshake(int loopSize, long subjectNumber) {
     int i = 0;
     long result = 1;
     while (i < loopSize) {
