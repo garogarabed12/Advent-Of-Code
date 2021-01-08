@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Instruction {
 
-    private final String operation;
+    private String operation;
     private final int argument;
 
     public Instruction(String operation, int argument) {
@@ -18,6 +18,10 @@ public class Instruction {
 
     public int getArgument() {
         return argument;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;
     }
 
     @Override

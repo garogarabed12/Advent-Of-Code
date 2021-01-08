@@ -18,5 +18,10 @@ public class Day8 {
 
         OperationsManager operationsManager = new OperationsManager(instructionsMap);
         operationsManager.executeOperationsUntilACycleIsFound();
+        System.out.println("====================================");
+        System.out.println("Part 2:");
+
+        OperationsManager operationsManager2 = new OperationsManager(instructionsMap);
+        operationsManager2.removeCircle();
     }
 }

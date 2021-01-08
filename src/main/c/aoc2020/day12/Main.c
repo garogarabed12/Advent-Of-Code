@@ -31,6 +31,9 @@ int main() {
 
     freeMemory(ship);
     fclose(input);
+    puts("================================================");
+    puts("Part 2");
+
 
     return 0;
 }

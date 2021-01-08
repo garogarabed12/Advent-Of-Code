@@ -1,7 +1,6 @@
 package aoc2020.day8;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
