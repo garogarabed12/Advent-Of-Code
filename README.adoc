@@ -1,11 +1,25 @@
 = Advent Of Code
+:icons: font
+:icon-set: fa
+:source-highlighter: rouge
+:experimental:
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
 
-=== My solutions of the 2020 Advent Of Code.
+Here are my solutions of some of the Advent Of Code's puzzles.
+(Previous) puzzles and events can be found link:https://adventofcode.com/events[here].
 
-(Previous) puzzles and events can be found link:https://adventofcode.com/events[here]. Your constructive feedback and improvement suggestions are appreciated so feel free
-to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues/new[issue].
+Your constructive feedback and improvement suggestions are appreciated so feel
+free to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues/new[issue].
 
-.Puzzles and code
+=== AOC 2020
+[#twenty20]
+.2020
 [cols = 5]
 |===
 
