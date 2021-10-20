@@ -18,8 +18,6 @@ Your constructive feedback and improvement suggestions are appreciated so feel
 free to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues/new[issue].
 
 === AOC 2020
-[#twenty20]
-.2020
 [cols = 5]
 |===
 
