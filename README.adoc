@@ -23,8 +23,8 @@ free to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues/new[
 
 | link:https://adventofcode.com/2021/day/1[Day 1 puzzle] +
 link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/python/aoc2021/day1[Day 1 code]
-| [Day 2 puzzle] +
-[Day 2 code]
+| link:https://adventofcode.com/2021/day/2[Day 2 puzzle] +
+link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/python/aoc2021/day2[Day 2 code]
 | [Day 3 puzzle] +
 [Day 3 code]
 | [Day 4 puzzle] +
