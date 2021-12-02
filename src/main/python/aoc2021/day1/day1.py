@@ -20,7 +20,7 @@ counter = 0
 # Part 2
 
 def count_three_measurement_window(index):
-    return int(data[index]) + int(data[index + 1]) + int(data[index + 2])
+    return sum(int(data[index]) for index in (index, index + 2))
 
 
 for i in range(0, len(data) - 2):
