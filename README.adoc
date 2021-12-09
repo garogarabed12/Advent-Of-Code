@@ -32,8 +32,8 @@ Day 4 code
 | [Day 5 puzzle] +
 [Day 5 code]
 
-| [Day 6 puzzle] +
-[Day 6 code]
+| link:https://adventofcode.com/2021/day/6[Day 6 puzzle] +
+link:https://github.com/garogarabed12/Advent-Of-Code/tree/main/src/main/python/aoc2021/day6[Day 6 code]
 | [Day 7 puzzle] +
 Day 7 code
 | [Day 8 puzzle] +
