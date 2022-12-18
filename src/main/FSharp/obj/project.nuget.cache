@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ktxelUU4QRaHKrBm9qSzkg+g1A+5qLqh15Jue9iieySBUo7Mbqwx2lVNDk9Jk/tQvCDwG46mg6R0d9vq4ntpSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Garo Garabed\\Documents\\Advent-Of-Code\\src\\main\\FSharp\\FSharp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Garo Garabed\\.nuget\\packages\\fsharp.core\\6.0.7\\fsharp.core.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
