@@ -27,7 +27,7 @@ link:https://github.com/garogarabed12/Advent-Of-Code/blob/main/src/main/FSharp/d
 | link:https://adventofcode.com/2022/day/2[Day 2 puzzle] +
 link:https://github.com/garogarabed12/Advent-Of-Code/blob/main/src/main/FSharp/day2/[Day 2 code]
 | link:https://adventofcode.com/2022/day/3[Day 3 puzzle] + 
-[Day 3 code]
+https://github.com/garogarabed12/Advent-Of-Code/blob/main/src/main/FSharp/day3/[Day 3 code]
 | [Day 4 puzzle] +
 Day 4 code
 | [Day 5 puzzle] +
