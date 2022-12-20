@@ -17,6 +17,70 @@ Here are my solutions of some of the Advent Of Code's puzzles.
 Your constructive feedback and improvement suggestions are appreciated so feel
 free to open an link:https://github.com/garogarabed12/Advent-Of-Code/issues/new[issue].
 
+
+=== AOC 2022
+[cols = 5]
+|===
+
+| link:https://adventofcode.com/2022/day/1[Day 1 puzzle] +
+link:https://github.com/garogarabed12/Advent-Of-Code/blob/main/src/main/FSharp/day1/[Day 1 code]
+| link:https://adventofcode.com/2022/day/2[Day 2 puzzle] +
+link:https://github.com/garogarabed12/Advent-Of-Code/blob/main/src/main/FSharp/day2/[Day 2 code]
+| link:https://adventofcode.com/2022/day/3[Day 3 puzzle] + 
+[Day 3 code]
+| [Day 4 puzzle] +
+Day 4 code
+| [Day 5 puzzle] +
+[Day 5 code]
+
+| [Day 6 puzzle] +
+[Day 6 code]
+| [Day 7 puzzle] +
+Day 7 code
+| [Day 8 puzzle] +
+[Day 8 code]
+| [Day 9 puzzle] +
+Day 9 code
+| [Day 10 puzzle] +
+[Day 10 code]
+
+| [Day 11 puzzle] +
+Day 11 code
+| [Day 12 puzzle] +
+[Day 12 code]
+| [Day 13 puzzle] +
+[Day 13 code]
+| [Day 14 puzzle] +
+Day 14 code
+| [Day 15 puzzle] +
+Day 15 code
+
+| [Day 16 puzzle] +
+Day 16 code
+| [Day 17 puzzle] +
+Day 17 code
+| [Day 18 puzzle] +
+Day 18 code
+| [Day 19 puzzle] +
+Day 19 code
+| [Day 20 puzzle] +
+Day 20 code
+
+| [Day 21 puzzle] +
+Day 21 code
+| [Day 22 puzzle] +
+Day 22 code
+| [Day 23 puzzle] +
+Day 23 code
+| [Day 24 puzzle] +
+Day 24 code
+| [Day 25 puzzle] +
+[Day 25 code]
+
+|===
+
+
+
 === AOC 2021
 [cols = 5]
 |===
