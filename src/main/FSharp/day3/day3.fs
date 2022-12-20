@@ -1,5 +1,7 @@
 open System.IO
 open Microsoft.FSharp.Core
+open System.Collections.Generic
+open Microsoft.FSharp.Collections
 
 let lines = File.ReadAllText "./day3/input.txt"
 let input:string [] = lines.Split("\r\n")
@@ -35,3 +37,20 @@ let splittedTuples = input
                     |> Array.sum
 
 splittedTuples |> printfn "%d"
+
+// Part 2
+let commonCharInGroup (group: string list) = 
+        let set1 = group[0]  |> Set.ofSeq
+        let set2 =  group[1] |> Set.ofSeq
+        let set3 =  group[2] |> Set.ofSeq
+        set1 |> Set.intersect set2 |> Set.intersect set3 |> Set.toList
+
+
+let splittedGroupedTuples = input
+                            |> Array.chunkBySize 3
+                            |> Array.map(fun x -> Seq.toList x)
+                            |> Array.map (fun x-> commonCharInGroup(x))
+                            |> Array.map(fun x -> getValue(x))
+                            |> Array.sum
+
+splittedGroupedTuples |> printfn "%d"
